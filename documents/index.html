@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Relax Blog Template Documents</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Relax Blog Template&rdquo; Documentation by &ldquo;OSahinDev&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Relax Blog Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 19.04.2022<br>
+					By: Oguzhan Sahin<br>
+					Email: <a href="mailto:osahin@outlook.com">osahin@outlook.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for download my theme.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#topBarOption">Top bar Option</a></li>
+			<li><a href="#layoutOptions">Layout Options</a></li>
+			<li><a href="#googleMapLocation">Google Map Location</a></li>
+			<li><a href="#owlCarousel">Owl Carousel</a></li>
+			<li><a href="#phpScripts">Contact Form</a></li>
+			<li><a href="#licenses">Licenses</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="topBarOption"><strong>A) Top bar option</strong> - <a href="#toc">top</a></h3>
+		<p>If you want you can add top bar with this code. <br /><br />
+		<strong>Note (Important):</strong>
+		<pre>&lt;header class="header"&gt;</pre> with header_2 class example:</p>
+		<pre>&lt;header class="header header_2"&gt;</pre>
+		
+		<img src="assets/images/top_bar_code.png" alt="HTML Structure" />
+		<img src="assets/images/top_bar_option.png" alt="HTML Structure" />
+		
+		<p>If you want to change social links side.You can change right_social class. There is two option.</p>
+		<ul>
+			<li>Left social links</li>
+			<li>Right social links</li>
+		</ul>
+		
+		<p>Left social links. ( left_social )</p>
+		<img src="assets/images/top_bar_left_social_links.png" alt="" />
+		
+		<p>Right social links. ( right_social )</p>
+		<img src="assets/images/top_bar_option.png" alt="" />
+		<hr>
+
+		<h3 id="layoutOptions"><strong>B) Layout Options</strong> - <a href="#toc">top</a></h3>
+
+		<p>If you want you can use some options.</p> 
+		
+		<ul>
+			<li>Left sidebar</li>
+			<li>Right sidebar</li>
+			<li>No sidebar</li>
+			<li>2 grid width sidebar post list</li>
+			<li>2 grid no sidebar post list</li>
+			<li>3 grid width sidebar post list</li>
+			<li>3 grid no sidebar post list</li>
+			<li>4 grid no sidebar post list</li>
+		</ul>
+		
+		<p><strong>- Left sidebar</strong></p>
+		
+		<pre>&lt;div class="contents left_sidebar"&gt;</pre>
+		
+		<p><strong>- Right sidebar</strong></p>
+		
+		<pre>&lt;div class="contents right_sidebar"&gt;</pre>
+		
+		<p><strong>- If you want to remove sidebar you need to remove <code>&lt;aside class="sidebar"&gt;</code> region.</strong></p>
+		
+		<pre>&lt;div class="contents"&gt;</pre>
+		
+		<p><strong>- 2 grid width sidebar post list</strong></p>
+		
+		<pre>&lt;div class="contents left_sidebar twoGrid"&gt;</pre>
+		
+		<p><strong>- 2 grid no sidebar post list</strong></p>
+		
+		<pre>&lt;div class="contents twoGrid"&gt;</pre>
+		
+		<p><strong>- 3 grid width sidebar post list</strong></p>
+		
+		<pre>&lt;div class="contents left_sidebar threeGrid"&gt;</pre>
+		
+		<p><strong>- 3 grid no sidebar post list</strong></p>
+		
+		<pre>&lt;div class="contents threeGrid"&gt;</pre>
+		
+		<p><strong>- 4 grid no sidebar post list</strong></p>
+		
+		<pre>&lt;div class="contents fourGrid"&gt;</pre>
+
+		<hr>
+		
+		<h3 id="googleMapLocation"><strong>C) Google Map Location</strong> - <a href="#toc">top</a></h3>
+		
+		<p>If you want to change google map location. You need to customize <strong>assets/js/script.js</strong> file.</p>
+		
+		<pre>map_Lat_lng = new google.maps.LatLng(47.605798, -122.325258);</pre>
+		
+		<p><strong>47.605798</strong> Latitude value.</p>
+		<p><strong>-122.325258</strong> Longtidude value.</p>
+		<p>If you want to learn your lat, lng values. You can use <a href="http://latlong.net" target="_blank">latlong.net</a></p>
+		
+		<hr>
+		
+		<h3 id="owlCarousel"><strong>D) Owl Carousel</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Documentation link: <a href="https://owlcarousel2.github.io/OwlCarousel2/demos/responsive.html" target="_blank">Link</a></p>
+		
+		<hr>
+		
+		<h3 id="phpScripts"><strong>E) PHP Scripts - Contact Form</strong> - <a href="#toc">top</a></h3>
+		
+		<p>To change the email open php/contact-form/php/contact.php file and find this line: </p>
+		
+		<img src="assets/images/email_adress.png" />
+		
+		<p>replace example@example.com with your email.</p>
+
+		<p>Make sure you run the script online and your server have enabled email function.</p>
+		
+		<hr>
+		
+		<h3 id="licenses"><strong>F) Licenses</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<p><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">Font Awesome</a> - by Dave Gandy (GPL License)</p>
+		<p><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl Carousel</a> - by David Deutsch (MIT License)</p>
+		<p><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> ( Montserrat, Rubik )</p>
+		<p><a href="https://unsplash.com/" target="_blank">Unsplash Free Images</a></p>
+		<p><a href="https://sweetalert.js.org/guides/" target="_blank">Sweetalert</a></p>
+		
+		<hr>
+		
+		<p class="append-bottom alt large"><strong>Oğuzhan Şahin</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
