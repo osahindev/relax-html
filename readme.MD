@@ -4,7 +4,7 @@ Free basic html blog template.
 
 ## Documents
 
-You can find in documents folder.
+You can find in *documents* folder.
 
 ## Preview
 
